@@ -19,8 +19,8 @@ This Python script fetches resource data from an API endpoint and inserts it int
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/api_to_sqlserver_pipeline.git
-   cd api_to_sqlserver_pipeline
+   git clone https://github.com/FedLibrary-API-Development/fedlibrary-data-pipeline-test.git
+   cd fedlibrary-data-pipeline-test
    ```
 
 2. Install dependencies:
@@ -28,11 +28,13 @@ This Python script fetches resource data from an API endpoint and inserts it int
    pip install -r requirements.txt
    ```
 
-3. Edit the connection string and API URL in `config.py` as needed.
+3. Execute the /sql/db.sql file in SQL Server. This will create eReserveData database and relevant tables.
 
-4. Run the script:
+4. Edit the connection string and API URL in `config.py` as needed.
+
+5. Run the pipeline:
    ```
    python main.py
    ```
-5. If successful, you’ll see logging entries in pipeline.log.   
+6. If successful, you’ll see logging entries in pipeline.log.   
    
