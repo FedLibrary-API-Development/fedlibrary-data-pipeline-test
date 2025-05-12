@@ -26,6 +26,7 @@ This Python script fetches resource data from an API endpoint and inserts it int
 2. Install dependencies:
    ```
    pip install -r requirements.txt
+   pip install pytest
    ```
 
 3. Execute the /sql/db.sql file in SQL Server. This will create eReserveData database and relevant tables.
@@ -34,7 +35,12 @@ This Python script fetches resource data from an API endpoint and inserts it int
 
 5. Run the pipeline:
    ```
-   python main.py
+   python -m fedpipeline.main
    ```
 6. If successful, you’ll see logging entries in pipeline.log.   
-   
+
+7. Run Unit Tests:
+   Unit tests are located in the tests/ directory.
+   ```
+   pytest tests/
+   ```
