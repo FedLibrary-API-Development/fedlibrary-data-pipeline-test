@@ -42,5 +42,5 @@ This Python script fetches resource data from an API endpoint and inserts it int
 7. Run Unit Tests:
    Unit tests are located in the tests/ directory.
    ```
-   pytest tests/
+   python -m pytest tests/
    ```

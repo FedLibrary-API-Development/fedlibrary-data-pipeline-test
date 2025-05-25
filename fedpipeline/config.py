@@ -1,6 +1,3 @@
-# config.py
-
-API_URL = "http://localhost:8000/api/v1/resources/"
 
 # API Configuration
 API_CONFIG = {
