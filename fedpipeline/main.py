@@ -10,7 +10,7 @@ Description:
 -------------------------------------------------------------------------------
 """
 import logging
-import logger
+from fedpipeline.logger import logger
 from fedpipeline.job_scheduler import start_scheduler
 
 if __name__ == "__main__":

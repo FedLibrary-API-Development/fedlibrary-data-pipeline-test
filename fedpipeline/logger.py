@@ -8,3 +8,6 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)-8s | %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
+
+# Export a logger instance for use elsewhere
+logger = logging.getLogger("fedpipeline")
